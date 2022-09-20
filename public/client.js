@@ -5,6 +5,7 @@ const messageInput = document.getElementById('messageInput')
 
 let name = prompt('Enter your name?')
 if(name == "") name = "Unknown"
+if(name === null) name = "Unknown"
 if(typeof name == null) name = "Unknown"
 if(typeof name == undefined) name = "Unknown"
 appendMessage('You Joined', 'right')
