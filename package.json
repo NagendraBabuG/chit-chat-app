@@ -4,7 +4,7 @@
   "description": "real time chat app with rooms",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "devstart": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
